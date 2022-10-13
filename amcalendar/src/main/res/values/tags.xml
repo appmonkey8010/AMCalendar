@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tag_amcalendar_weekday" type="id"/>
+    <item name="tag_amcalendar_day" type="id"/>
+    <item name="tag_amcalendar_month" type="id"/>
+    <item name="tag_amcalendar_year" type="id"/>
+    <item name="tag_amcalendar_in_use" type="id"/>
+    <item name="tag_amcalendar_time_selection" type="id"/>
+    <item name="tag_amcalendar_time_selection_end" type="id"/>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAMCalendarBackground">#ffffff</color>
+    <color name="colorAMCalendarCancel">#3c72d1</color>
+    <color name="colorAMCalendarSelect">#3c72d1</color>
+    <color name="colorAMCalendarDisabled">#bebebe</color>
+    <color name="colorAMCalendarHeaderDisabled">#bebebe</color>
+    <color name="colorAMCalendarHeaderSelected">#000000</color>
+    <color name="colorAMCalendarHeaderClear">#4b4b4b</color>
+    <color name="colorAMCalendarWeekday">#000000</color>
+    <color name="colorAMCalendarWeekdayBackground">#f0f0f6</color>
+    <color name="colorAMCalendarMonth">#3c72d1</color>
+    <color name="colorAMCalendarDay">#000000</color>
+    <color name="colorAMCalendarDaySelected">#FFFFFF</color>
+    <color name="colorAMCalendarDaySelectedCircle">#3c72d1</color>
+    <color name="colorAMCalendarShortcutBackground">#f0f0f6</color>
+    <color name="colorAMCalendarShortcutElementBackground">#FFFFFF</color>
+    <color name="colorAMCalendarShortcutElementText">#000000</color>
+</resources>

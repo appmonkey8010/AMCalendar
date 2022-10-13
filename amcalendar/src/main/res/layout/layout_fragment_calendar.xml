@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorAMCalendarBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/layout_main_1"
+        android:background="@color/colorAMCalendarBackground"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:elevation="3dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_cancel"
+            android:background="@drawable/sh_round_ripple"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8dp"
+            android:padding="12dp"
+            android:src="@drawable/vec_arrow_back"
+            android:tint="@color/colorAMCalendarCancel" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_select"
+            android:background="@drawable/sh_select_ripple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:paddingHorizontal="8dp"
+            android:layout_marginEnd="8dp"
+            android:paddingVertical="12dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:enabled="false"
+            android:text="@string/amcalendar_select"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAMCalendarDisabled"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_main_1">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/text_header"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:text="@string/amcalendar_please_select_date"
+            android:textColor="@color/colorAMCalendarHeaderDisabled"
+            android:textSize="17sp" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/img_header_clear"
+            android:src="@drawable/vec_clear"
+            android:tint="@color/colorAMCalendarHeaderClear"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="12dp"
+            android:padding="4dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_2"
+        android:background="@drawable/sh_weekday_background"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_below="@id/layout_header"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/amcalendar_monday_short"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="@color/colorAMCalendarWeekday"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/amcalendar_tuesday_short"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="@color/colorAMCalendarWeekday"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/amcalendar_wednesday_short"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="@color/colorAMCalendarWeekday"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/amcalendar_thursday_short"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="@color/colorAMCalendarWeekday"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/amcalendar_friday_short"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="@color/colorAMCalendarWeekday"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/amcalendar_saturday_short"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="@color/colorAMCalendarWeekday"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/amcalendar_sunday_short"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:textColor="@color/colorAMCalendarWeekday"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/scroll_shortcut"
+        android:layout_below="@id/layout_2"
+        android:clipToPadding="false"
+        android:paddingBottom="10dp" />
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_shortcut"
+        android:background="@color/colorAMCalendarShortcutBackground"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:paddingHorizontal="10dp"
+        android:clipToPadding="false">
+
+        <LinearLayout
+            android:id="@+id/layout_shortcut"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="12dp"
+            android:orientation="horizontal"/>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

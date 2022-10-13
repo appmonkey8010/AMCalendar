@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AMCalendarButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:colorButtonNormal">@color/colorAMCalendarShortcutElementBackground</item>
+        <item name="android:textColor">@color/colorAMCalendarShortcutElementText</item>
+    </style>
+</resources>

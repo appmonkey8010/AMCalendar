@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorAMCalendarBackground"
+    android:id="@+id/layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAMCalendarMonth"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/layout_days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_month">
+
+        <LinearLayout
+            android:id="@+id/layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/layout_1"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/layout_2"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_4"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/layout_3"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/layout_4"
+            android:layout_marginHorizontal="10dp"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/layout_5"
+            android:layout_marginHorizontal="10dp"
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <View
+                android:background="@color/colorAMCalendarBackground"
+                android:layout_width="1px"
+                android:layout_height="match_parent" />
+
+            <at.appmonkey.amcalendar.ui.DayView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

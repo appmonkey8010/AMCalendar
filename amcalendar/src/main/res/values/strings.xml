@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="amcalendar_select">Select</string>
+    <string name="amcalendar_please_select_date">Please select date</string>
+    <string name="amcalendar_please_select_date_range">Please select date range</string>
+    <string name="amcalendar_template_today">Today</string>
+    <string name="amcalendar_template_tomorrow">Tomorrow</string>
+    <string name="amcalendar_template_yesterday">Yesterday</string>
+    <string name="amcalendar_template_last_week">Last week</string>
+    <string name="amcalendar_template_last_month">Last month</string>
+    <string name="amcalendar_monday_short">MON</string>
+    <string name="amcalendar_tuesday_short">TUE</string>
+    <string name="amcalendar_wednesday_short">WED</string>
+    <string name="amcalendar_thursday_short">THU</string>
+    <string name="amcalendar_friday_short">FRI</string>
+    <string name="amcalendar_saturday_short">SAT</string>
+    <string name="amcalendar_sunday_short">SUN</string>
+
+    <string-array name="amcalendar_months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>
