@@ -113,9 +113,9 @@ class CustomRangeShortcut : AMCalendarRangeShortcut() {
 }
 ```
 
-```
+```kotlin
 AMCalendar.rangeSelect(...)
-    .shortcuts(CustomRangeShortcut(), LastWeekRangeShortcut(this))
+    .shortcuts(CustomRangeShortcut(), LastWeekRangeShortcut(context))
 ```
 
 ### Customization
