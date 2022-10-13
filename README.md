@@ -32,7 +32,7 @@ Add this to your module's gradle dependencies:
 ```groovy
 dependencies {
     ...
-    implementation 'at.appmonkey:amcalendar:[RELEASE]' //e.g.: 1.0.0
+    implementation 'com.github.appmonkey8010:amcalendar:[RELEASE]' //e.g.: 1.0.0
     ...
 }
 
@@ -168,6 +168,10 @@ By default the library provides a light and a dark theme.
 By default the library provides following languages:
 - **English (default)**
 - **German**
+
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QT54MSJR6QU7Y">
+  <img src="paypal-donate-button.png" alt="Donate with PayPal" width="300" />
+</a>
 
 ## License
 
