@@ -1,5 +1,6 @@
 ![Header](header.png)
 
+[![](https://jitpack.io/v/appmonkey8010/AMCalendar.svg)](https://jitpack.io/#appmonkey8010/AMCalendar)
 [![License](https://img.shields.io/badge/license-mit-brightgreen.svg?style=flat)](https://en.wikipedia.org/wiki/MIT_License)
 
 AMCalendar - Android Date Picker
