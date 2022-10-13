@@ -1,5 +1,7 @@
 ![Header](header.png)
 
+[![License](https://img.shields.io/badge/license-mit-brightgreen.svg?style=flat)](https://en.wikipedia.org/wiki/MIT_License)
+
 AMCalendar - Android Date Picker
 =============== 
 

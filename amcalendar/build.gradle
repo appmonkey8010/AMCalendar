@@ -47,7 +47,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'at.appmonkey'
+                groupId = 'com.github.appmonkey8010'
                 artifactId = 'amcalendar'
                 version = '1.0.0'
             }
