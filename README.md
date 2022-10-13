@@ -41,9 +41,7 @@ Add this to your module's gradle dependencies:
 
 ```groovy
 dependencies {
-    ...
     implementation 'com.github.appmonkey8010:amcalendar:[RELEASE]' //e.g.: 1.0.0
-    ...
 }
 
 ```
