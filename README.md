@@ -1,7 +1,7 @@
 <img alt="AMCalendar" src="https://apps.appmonkey.at/demo/amcalendar.png" width="100%">
 
 AMCalendar - Android Date Picker
-===============
+=============== 
 
 AMCalendar is a fully customisable widget for picking dates and ranges based on the native [Calendar](https://developer.android.com/reference/java/util/Calendar).
 
