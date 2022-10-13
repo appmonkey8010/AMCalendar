@@ -1,4 +1,4 @@
-<img alt="AMCalendar" src="https://apps.appmonkey.at/demo/amcalendar.png" width="100%">
+![Header](header.png)
 
 AMCalendar - Android Date Picker
 =============== 
@@ -30,7 +30,7 @@ Add this to your module's gradle dependencies:
 ```groovy
 dependencies {
     ...
-    implementation 'at.appmonkey8010:amcalendar:[RELEASE]' //e.g.: 1.0.0
+    implementation 'at.appmonkey:amcalendar:[RELEASE]' //e.g.: 1.0.0
     ...
 }
 
