@@ -1,10 +1,10 @@
-package at.appmonkey.amcalendar
+package at.appmonkey.amcalendarsample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import at.appmonkey.amcalendar.base.AMCalendar
-import at.appmonkey.amcalendar.databinding.ActivityMainBinding
+import at.appmonkey.amcalendarsample.databinding.ActivityMainBinding
 import at.appmonkey.amcalendar.interfaces.RangeSelectionListener
 import at.appmonkey.amcalendar.interfaces.SingleSelectionListener
 import at.appmonkey.amcalendar.prepared.*

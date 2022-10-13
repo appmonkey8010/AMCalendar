@@ -27,6 +27,16 @@ It's an Android port of the [Fastis iOS Calendar Framework](https://github.com/s
 
 ## Installation
 
+Add this to your root gradle:
+
+```groovy
+allprojects {
+    repositories {
+        maven { url "https://www.jitpack.io" }
+    }
+}
+```
+
 Add this to your module's gradle dependencies:
 
 ```groovy
