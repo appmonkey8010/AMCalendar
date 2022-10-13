@@ -133,7 +133,7 @@ AMCalendar.rangeSelect(...)
 
 AMCalendar's appearance can be customized with resources. Following keys can be overridden:
 
-```
+```xml
 <!-- colors.xml -->
 <color name="colorAMCalendarBackground">#ffffff</color>
 <color name="colorAMCalendarCancel">#3c72d1</color>
@@ -155,7 +155,7 @@ AMCalendar's appearance can be customized with resources. Following keys can be 
 
 By default the library provides a light and a dark theme.
 
-```
+```xml
 <!-- strings.xml -->
 <string name="amcalendar_select">Select</string>
 <string name="amcalendar_please_select_date">Please select date</string>
