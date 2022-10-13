@@ -169,7 +169,7 @@ By default the library provides following languages:
 - **English (default)**
 - **German**
 
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QT54MSJR6QU7Y">
+<a href="https://www.paypal.com/donate/?hosted_button_id=MEPM8RFRH47AS">
   <img src="paypal-donate-button.png" alt="Donate with PayPal" width="300" />
 </a>
 
