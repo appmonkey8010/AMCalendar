@@ -3,7 +3,7 @@
 [![](https://jitpack.io/v/appmonkey8010/AMCalendar.svg)](https://jitpack.io/#appmonkey8010/AMCalendar)
 [![License](https://img.shields.io/badge/license-mit-brightgreen.svg?style=flat)](https://en.wikipedia.org/wiki/MIT_License)
 
-AMCalendar - Android Date Picker
+AMCalendar - Android Date (Range) Picker
 =============== 
 
 AMCalendar is a fully customisable widget for picking dates and ranges based on the native [Calendar](https://developer.android.com/reference/java/util/Calendar).
